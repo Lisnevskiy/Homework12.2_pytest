@@ -15,9 +15,6 @@ def get(array, index, default=None):
     if index not in range(len(array)):
         return default
 
-    if len(array) <= 0:
-        return default
-
     return array[index]
 
 
